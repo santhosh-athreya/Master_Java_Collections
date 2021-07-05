@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Best class
+ */
 public class ArrayListPractice {
 
     private static List<String> list = new ArrayList<String>();
@@ -35,6 +38,9 @@ public class ArrayListPractice {
         {
             list.add(name);
         }
+
+       // SMS_Service sms = new SMS_Service();
+
 
     }
 

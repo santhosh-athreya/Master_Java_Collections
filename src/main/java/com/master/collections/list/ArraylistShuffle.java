@@ -32,6 +32,11 @@ public class ArraylistShuffle {
 
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     public static void shuffle(Integer[] array)
     {
         for (Integer value: array)
@@ -42,6 +47,9 @@ public class ArraylistShuffle {
         Collections.shuffle(numbers);
 
         System.out.println("SHUFFLED ARRAY: " + numbers);
+
+
+
     }
 
 
